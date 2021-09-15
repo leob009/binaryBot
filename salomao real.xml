@@ -21,7 +21,7 @@
     <variable type="" id="En,@2Hpa?u*|xFJ9^d/=">m</variable>
     <variable type="" id="oVfLXI(?7C)Zpu^o!^ax">sequencias</variable>
   </variables>
-  <block type="trade" id=")inu*9KBx=?O=ZEkmjl_" collapsed="true" x="0" y="0">
+  <block type="trade" id=")inu*9KBx=?O=ZEkmjl_" x="0" y="0">
     <field name="MARKET_LIST">synthetic_index</field>
     <field name="SUBMARKET_LIST">random_index</field>
     <field name="SYMBOL_LIST">R_100</field>
@@ -82,7 +82,7 @@
                         <field name="VAR" id="gUOPN-ToxNVWW#tK$6(r" variabletype="">dig2</field>
                         <value name="VALUE">
                           <block type="math_number" id="[up@e7Zx/Zw!^bpdV}Vv">
-                            <field name="NUM">5</field>
+                            <field name="NUM">3</field>
                           </block>
                         </value>
                         <next>
@@ -154,7 +154,7 @@
       </block>
     </statement>
   </block>
-  <block type="tick_analysis" id="MS-IVya=(0a?D`i(O3wU" collapsed="true" x="0" y="53">
+  <block type="tick_analysis" id="MS-IVya=(0a?D`i(O3wU" x="0" y="693">
     <statement name="TICKANALYSIS_STACK">
       <block type="notify" id="EK|j3)*D5bsAZT*l+{u{">
         <field name="NOTIFICATION_TYPE">success</field>
@@ -606,7 +606,7 @@
       </block>
     </statement>
   </block>
-  <block type="before_purchase" id="*Q[~K|v:Sg)bHrl+VA1N" collapsed="true" x="0" y="106">
+  <block type="before_purchase" id="*Q[~K|v:Sg)bHrl+VA1N" x="0" y="1743">
     <statement name="BEFOREPURCHASE_STACK">
       <block type="controls_if" id="eP`W~*(ujW.?(^1FL~P5">
         <value name="IF0">
@@ -648,7 +648,7 @@
       </block>
     </statement>
   </block>
-  <block type="after_purchase" id="X[gun7Sx6Shn3kldC}mZ" collapsed="true" x="0" y="159">
+  <block type="after_purchase" id="X[gun7Sx6Shn3kldC}mZ" x="0" y="1922">
     <statement name="AFTERPURCHASE_STACK">
       <block type="controls_if" id="3^$^OJ91R?Rjv]mBvZsB">
         <mutation else="1"></mutation>
@@ -805,7 +805,7 @@
       </block>
     </statement>
   </block>
-  <block type="procedures_defnoreturn" id="TY/(qs?1mzi0doraNq_[" collapsed="true" x="0" y="212">
+  <block type="procedures_defnoreturn" id="TY/(qs?1mzi0doraNq_[" x="0" y="2426">
     <mutation>
       <arg name="martingale:resultIsWin" varid="x]b3MHpbtR?cJQDP@,eG"></arg>
       <arg name="c" varid="%52(7QP]p#Wx0nYilEO|"></arg>
@@ -899,7 +899,7 @@
       </block>
     </statement>
   </block>
-  <block type="procedures_defreturn" id="_b//g0Q,2OW8MbY^`J3E" collapsed="true" x="0" y="265">
+  <block type="procedures_defreturn" id="_b//g0Q,2OW8MbY^`J3E" x="0" y="2673">
     <mutation>
       <arg name="martingale:profit" varid="[M$5RsD`g|8-P;C+mbf4"></arg>
       <arg name="martingale:resultIsWin" varid="x]b3MHpbtR?cJQDP@,eG"></arg>
@@ -1194,7 +1194,7 @@
       </block>
     </value>
   </block>
-  <block type="procedures_defreturn" id="qq2xGirc*Byb/P/HE^]H" collapsed="true" x="0" y="318">
+  <block type="procedures_defreturn" id="qq2xGirc*Byb/P/HE^]H" x="0" y="3555">
     <field name="NAME">Martingale Trade Amount</field>
     <comment pinned="false" h="80" w="160">Describe this function...</comment>
     <statement name="STACK">
@@ -1381,7 +1381,7 @@
       </block>
     </value>
   </block>
-  <block type="procedures_defreturn" id="KhcbdXpW%noh$~OiY@%x" collapsed="true" x="0" y="371">
+  <block type="procedures_defreturn" id="KhcbdXpW%noh$~OiY@%x" x="0" y="4128">
     <mutation>
       <arg name="x" varid="GJ9V*2hC]{mnE%Oo@(;S"></arg>
       <arg name="y" varid="0S})`.gxt:x[_~ib#HRL"></arg>
